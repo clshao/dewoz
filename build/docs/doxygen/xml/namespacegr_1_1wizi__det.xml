@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacegr_1_1wizi__det" kind="namespace" language="C++">
+    <compoundname>gr::wizi_det</compoundname>
+    <innerclass refid="classgr_1_1wizi__det_1_1wifi__sniffer" prot="public">gr::wizi_det::wifi_sniffer</innerclass>
+    <innerclass refid="classgr_1_1wizi__det_1_1wifi__sniffer__impl" prot="public">gr::wizi_det::wifi_sniffer_impl</innerclass>
+    <innerclass refid="classgr_1_1wizi__det_1_1zigbee__sync" prot="public">gr::wizi_det::zigbee_sync</innerclass>
+    <innerclass refid="classgr_1_1wizi__det_1_1zigbee__sync__impl" prot="public">gr::wizi_det::zigbee_sync_impl</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ahyhus/gr-wizi_det/include/wizi_det/wifi_sniffer.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

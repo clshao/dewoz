@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libgnuradio-wizi_det-1.0.0git.so.0.0.0 -o libgnuradio-wizi_det-1.0.0git.so.0.0.0 CMakeFiles/gnuradio-wizi_det.dir/wifi_sniffer_impl.cc.o CMakeFiles/gnuradio-wizi_det.dir/zigbee_sync_impl.cc.o -lboost_filesystem -lboost_system /usr/local/lib/libgnuradio-runtime.so /usr/local/lib/libgnuradio-pmt.so -Wl,-rpath,/usr/local/lib: 

@@ -1,0 +1,7 @@
+/*!
+ * \defgroup block GNU Radio WIZI_DET C++ Signal Processing Blocks
+ * \brief All C++ blocks that can be used from the WIZI_DET GNU Radio
+ *        module are listed here or in the subcategories below.
+ *
+ */
+

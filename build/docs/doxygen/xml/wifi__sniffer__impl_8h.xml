@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="wifi__sniffer__impl_8h" kind="file" language="C++">
+    <compoundname>wifi_sniffer_impl.h</compoundname>
+    <includes refid="wifi__sniffer_8h" local="no">wizi_det/wifi_sniffer.h</includes>
+    <incdepgraph>
+      <node id="19">
+        <label>wizi_det/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>wizi_det/wifi_sniffer.h</label>
+        <link refid="wifi__sniffer_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="17">
+        <label>wifi_sniffer_impl.h</label>
+        <link refid="wifi_sniffer_impl.h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>gnuradio/block.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1wizi__det_1_1wifi__sniffer__impl" prot="public">gr::wizi_det::wifi_sniffer_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1wizi__det">gr::wizi_det</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ahyhus/gr-wizi_det/lib/wifi_sniffer_impl.h"/>
+  </compounddef>
+</doxygen>

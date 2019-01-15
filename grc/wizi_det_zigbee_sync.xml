@@ -1,0 +1,62 @@
+<block>
+  <name>ZigBee Sync</name>
+  <key>wizi_det_zigbee_sync</key>
+  <category>[WIZI_DET]</category>
+  <import>import wizi_det</import>
+  <make>wizi_det.zigbee_sync($debug, $correlation, $power, $plateau)</make>
+  <param>
+    <name>Debug</name>
+    <key>debug</key>
+    <value>False</value>
+    <type>bool</type>
+
+    <option>
+	<name>Enable</name>
+	<key>True</key> 
+    </option>
+
+    <option>
+	<name>Disable</name>
+	<key>False</key> 
+    </option>
+
+  </param>
+  <param>
+    <name>Correlation</name>
+    <key>correlation</key>
+    <value>0.56</value>
+    <type>float</type>
+  </param>
+    <param>
+    <name>Power</name>
+    <key>power</key>
+    <value>200</value>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Plateau</name>
+    <key>plateau</key>
+    <value>10</value>
+    <type>int</type>
+  </param>
+  <sink>
+    <name>in_cor</name>
+    <type>float</type>
+  </sink>
+  <sink>
+    <name>in_pwr</name>
+    <type>float</type>
+  </sink>
+  <sink>
+    <name>in_sample</name>
+    <type>complex</type>
+  </sink>
+  <source>
+    <name>out_cor</name>
+    <type>float</type>
+  </source>
+  <source>
+    <name>out_sample</name>
+    <type>complex</type>
+  </source>
+</block>

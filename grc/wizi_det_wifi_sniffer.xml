@@ -1,0 +1,55 @@
+<block>
+  <name>Wi-Fi Sniffer</name>
+  <key>wizi_det_wifi_sniffer</key>
+  <category>[WIZI_DET]</category>
+  <import>import wizi_det</import>
+  <make>wizi_det.wifi_sniffer($debug, $cor_diff_th, $fft_pwr_th, $fft_sc_th)</make>
+  <param>
+    <name>Debug</name>
+    <key>debug</key>
+    <value>False</value>
+    <type>bool</type>
+
+    <option>
+	<name>Enable</name>
+	<key>True</key> 
+    </option>
+
+    <option>
+	<name>Disable</name>
+	<key>False</key> 
+    </option>
+
+  </param>
+  <param>
+    <name>Cor_diff</name>
+    <key>cor_diff_th</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>FFT_power</name>
+    <key>fft_pwr_th</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>FFT_carrier</name>
+    <key>fft_sc_th</key>
+    <type>float</type>
+  </param>
+  <sink>
+    <name>in_cor</name>
+    <type>float</type>
+  </sink>
+  <sink>
+    <name>in_clr_cor</name>
+    <type>float</type>
+  </sink>
+  <sink>
+    <name>in_sample</name>
+    <type>complex</type>
+  </sink>
+  <source>
+    <name>out_sample</name>
+    <type>complex</type>
+  </source>
+</block>
