@@ -133,7 +133,7 @@ zigbee_sync_impl::general_work (int noutput_items,
 	  consume_each(0);
 	  return o;
 
-  case COPY_PREAMBLE: //Preamble = ZigBee preamble + SFD
+  case COPY_PREAMBLE: // Preamble = ZigBee preamble + SFD
 	  while(i < ninput && o < noutput && d_copy_cnt <= PREAMBLE_SAMPLE_CNT - 31 - d_plateau + d_index) {
 		  out_cor[o] = in_cor[i];
 		  out_sample[o] = in_sample[i];
